@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of designing and building Web, Mobile and software applications with Java / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1YoIv-WXRgUyKlmp44AM-cJHKxFRj1SLl/view?usp=sharing",
+    "https://drive.google.com/file/d/1nz9wXgbGuy_Zkeg3zx803Ih1YCBVXZeN/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -158,6 +158,11 @@ const workExperiences = {
       companylogo: require("./assets/images/netflix-clone.JPG"),
       date: "January 2021 – March 2021",
       desc: "Build a Netflix clone with React and firebase Hosting.",
+      descBullets: [
+        "Used TMDB Api-key",
+        "Build a Netflix clone using React.js and maintaining declarative code and building HTML using JSX. Use firebase hosting through firebase-cli.",
+        "Implemented “react-YouTube” and “movie-trailer” dependencies to display every single trailer of movies. ",
+      ],
     },
     {
       role: "Software Engineer",
@@ -195,6 +200,18 @@ const workExperiences = {
         "Integrated Google maps API with vanilla javascript.",
         "Increased search speed by 25% and add two different Google maps themes Dark and Retro.",
         "Added 50+ store details inside google maps API. Increased javascript reload time by 10%.",
+      ],
+    },
+    {
+      role: "Javascrpit Developer",
+      company: "Academic Project",
+      companylogo: require("./assets/images/project1.png"),
+      date: "May 2019 – June 2019",
+      desc: "A web application to make music.",
+      descBullets: [
+        "A simple web application using HTML, CSS, and JavaScript and to make music.",
+
+        "Make sound using colorful touchpads and see bouncing balls.",
       ],
     },
   ],
@@ -322,7 +339,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
