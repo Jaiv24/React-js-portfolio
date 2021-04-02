@@ -5,7 +5,7 @@
 ## <a href="https://jaiv-portfolio.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## Description
-This is a ReactJS based personal resume website template.
+This is a ReactJS based personal resume portfolio website template.
 
 ## Make it Your Own!
 #### PREREQUISITES:
