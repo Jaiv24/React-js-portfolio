@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of designing and building Web, Mobile and software applications with Java / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KY2NndpVHdaRALiGSZxFlSgbJe8rHE9f/view?usp=sharing",
+    "https://drive.google.com/file/d/1vs9ZzQkrynHrvk-0iGyyOLgucGc456hp/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/jaiv24",
   linkedin: "https://www.linkedin.com/in/jaiv-shah/",
-  gmail: "jaiv.maurya@gmail.com",
+  gmail: "jaivkshah24@yahoo.com",
   facebook: "https://www.facebook.com/profile.php?id=100009727861709",
   // medium: "https://medium.com/@davidrakosi",
   stackoverflow: "https://stackoverflow.com/users/12150795/jaiv24",
@@ -153,6 +153,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Python Developer - Shopify developer Intern challange",
+      company: "Shopify",
+      companylogo: require("./assets/images/movieApp.PNG"),
+      date: "April 2021",
+      desc: "A Movie review application in python.",
+      descBullets: [
+        "This project is for Shopify developer intern challenge. “Movie review Application”",
+        "Allowed users to create, read, update, and delete their movie reviews and ratings by developing app using Django framework.",
+        "Boosted increase engagement rates with important features, such as implementing in-app notification for adding a new movie.",
+        "Increased search speed by 10% by implementing the better algorithm.",
+      ],
+    },
+    {
+      role: "Software developer",
+      company: "Capstone Project",
+      companylogo: require("./assets/images/HeartRateMonitor.JPG"),
+      date: "January 2021 – April 2021",
+      desc:
+        "Android-based heart rate measuring app which measures the value from the sensor and stores it in a cloud.",
+      descBullets: [
+        "Built and design a complete heart rate monitoring system by programming STM32 microcontroller in ARDUINO IDE to push and retrieve data from firebase while reading data using heart-rate sensor.",
+        "Developed an Android application that fetches heartrate data from firebase and also interacts with the microcontroller seamlessly as well as built python script that connects with STM32 and retrieves data from firebase   and displays it to a seven-segment display.",
+      ],
+    },
+    {
       role: "FullStack developer",
       company: "Academic Project",
       companylogo: require("./assets/images/netflix-clone.JPG"),
@@ -160,8 +185,8 @@ const workExperiences = {
       desc: "Build a Netflix clone with React and firebase Hosting.",
       descBullets: [
         "Used TMDB Api-key",
-        "Build a Netflix clone using React.js and maintaining declarative code and building HTML using JSX. Use firebase hosting through firebase-cli.",
-        "Implemented “react-YouTube” and “movie-trailer” dependencies to display every single trailer of movies. ",
+        "Delivered quality performance by creating Netflix clone using React.js, maintaining declarative code, and building HTML using JSX. Use Firebase hosting through Firebase-CLI. ",
+        "Displayed every single trailer of movies by implementing “React-YouTube” and “Movie-Trailer” dependencies.",
       ],
     },
     {
@@ -172,34 +197,21 @@ const workExperiences = {
       desc:
         "Developed A minimalistic Android application to measure temprature.",
       descBullets: [
-        "Improved efficiency and performance of the main application by 500%. Perform refactoring of JAVA application and reduce load time by 75%",
-        "Proficiently troubleshoot simple and complex technical issues in a project, achieving over 95% Satisfaction Rate. ",
+        "Built an Android Application to measure and track the temperature data using BME280 sensor",
+        "Reduced load time and improved main application efficiency and performance by 75% and 500% respectively by refactoring JAVA application.",
       ],
     },
 
-    {
-      role: "Python Django Developer",
-      company: "Academic Project",
-      companylogo: require("./assets/images/movieApp.PNG"),
-      date: "May 2020 – August 2020",
-      desc: "A Movie review application in python.",
-      descBullets: [
-        "Developed a fully functional CRUD python Django app with a Notification power",
-
-        "This movie app lets you to add a movie and type a review about it.",
-      ],
-    },
     {
       role: "Software Developer",
       company: "Academic Project",
       companylogo: require("./assets/images/GoogleMapsAPIproject.PNG"),
       date: "May 2020 – August 2020",
       desc:
-        "Build an application to find details of stores by entering their zip codes.",
+        "A web application that finds details of stores in display on google maps.",
       descBullets: [
-        "Integrated Google maps API with vanilla javascript.",
-        "Increased search speed by 25% and add two different Google maps themes Dark and Retro.",
-        "Added 50+ store details inside google maps API. Increased javascript reload time by 10%.",
+        "Achieved projects goals by adding two different Google map’s themes Dark and Retro and over 50 store details inside Google maps API",
+        "Maximized efficiency by increasing search speed by 25% by integrating Google maps API with vanilla JavaScript.",
       ],
     },
     {
@@ -375,7 +387,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "(365) 338 6024",
-  email_address: "jaiv.maurya@gmail.com",
+  email_address: "jaivkshah24@yahoo.com",
 };
 
 // Twitter Section
