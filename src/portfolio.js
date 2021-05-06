@@ -12,10 +12,10 @@ const greeting = {
   username: "Jaiv Shah",
   title: "Hi all, I'm Jaiv",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of designing and building Web, Mobile and software applications with Java / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of designing testing and building Web, Mobile and software applications with cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vs9ZzQkrynHrvk-0iGyyOLgucGc456hp/view?usp=sharing",
+    "https://drive.google.com/file/d/1Q72yp8VhVn6DRdkZjybiI4f3cPcIPshJ/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -28,6 +28,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/profile.php?id=100009727861709",
   // medium: "https://medium.com/@davidrakosi",
   stackoverflow: "https://stackoverflow.com/users/12150795/jaiv24",
+  linktree: "https://linktr.ee/jaiv_shah_tech24",
   display: true, // Set true to display this section, defaults to false
 };
 
@@ -100,24 +101,15 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      schoolName: "Humber College, Toronto",
+      logo: require("./assets/images/humberLogo.png"),
+      subHeader: "Bechelor of Technology in Computer Engineering Technology",
+      duration: "September 2018 - April 2021",
+      desc: "Dean's Honors List. CGPA: 3.8, Humber President's Scholarship",
+      // descBullets: [""],
     },
   ],
 };
@@ -141,7 +133,7 @@ const techStack = {
     },
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "78%", //Insert relative proficiency in percentage
+      progressPercentage: "88%", //Insert relative proficiency in percentage
     },
   ],
   displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -167,14 +159,14 @@ const workExperiences = {
     },
     {
       role: "Software developer",
-      company: "Capstone Project",
-      companylogo: require("./assets/images/HeartRateMonitor.JPG"),
-      date: "January 2021 – April 2021",
-      desc:
-        "Android-based heart rate measuring app which measures the value from the sensor and stores it in a cloud.",
+      company: "Project",
+      companylogo: require("./assets/images/robinhoodClone.PNG"),
+      date: "March 2021 – April 2021",
+      desc: "CLone application of Robinhood - A stock trading app",
       descBullets: [
-        "Built and design a complete heart rate monitoring system by programming STM32 microcontroller in ARDUINO IDE to push and retrieve data from firebase while reading data using heart-rate sensor.",
-        "Developed an Android application that fetches heartrate data from firebase and also interacts with the microcontroller seamlessly as well as built python script that connects with STM32 and retrieves data from firebase   and displays it to a seven-segment display.",
+        "Build a high-quality stock trading application by creating Robinhood clone using React. Use Firebase hosting through Firebase-CLI. ",
+        "Collected live-stock data from API and displayed inside Stats.",
+        "Implemented React Chart.js dependency to display stock information in a graphical way.",
       ],
     },
     {
@@ -187,6 +179,18 @@ const workExperiences = {
         "Used TMDB Api-key",
         "Delivered quality performance by creating Netflix clone using React.js, maintaining declarative code, and building HTML using JSX. Use Firebase hosting through Firebase-CLI. ",
         "Displayed every single trailer of movies by implementing “React-YouTube” and “Movie-Trailer” dependencies.",
+      ],
+    },
+    {
+      role: "Software developer",
+      company: "Capstone Project",
+      companylogo: require("./assets/images/HeartRateMonitor.JPG"),
+      date: "January 2021 – April 2021",
+      desc:
+        "Android-based heart rate measuring app which measures the value from the sensor and stores it in a cloud.",
+      descBullets: [
+        "Built and design a complete heart rate monitoring system by programming STM32 microcontroller in ARDUINO IDE to push and retrieve data from firebase while reading data using heart-rate sensor.",
+        "Developed an Android application that fetches heartrate data from firebase and also interacts with the microcontroller seamlessly as well as built python script that connects with STM32 and retrieves data from firebase   and displays it to a seven-segment display.",
       ],
     },
     {

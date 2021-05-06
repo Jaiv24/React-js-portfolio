@@ -1,12 +1,13 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./WorkExperience.css";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import {workExperiences} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { socialMediaLinks, workExperiences } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
 
 export default function WorkExperience() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -14,6 +15,12 @@ export default function WorkExperience() {
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Experiences</h1>
+              <Button
+                text="See Projects Live"
+                newTab={true}
+                href={socialMediaLinks.linktree}
+              />
+              <br />
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
@@ -26,7 +33,7 @@ export default function WorkExperience() {
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
-                        descBullets: card.descBullets
+                        descBullets: card.descBullets,
                       }}
                     />
                   );
